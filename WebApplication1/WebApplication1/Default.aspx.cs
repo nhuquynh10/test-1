@@ -14,7 +14,7 @@ namespace WebApplication1
             int x = tonghaiso(1, 2);
             if (!IsPostBack && x != 0)//test
             {
-                int string = "temp";
+                int str = "temp";
                 int y = tonghaiso(1, 3);
             }
         }

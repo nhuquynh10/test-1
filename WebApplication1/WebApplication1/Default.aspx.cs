@@ -11,13 +11,15 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)//test
+            int x = tonghaiso(1, 2);
+            if (!IsPostBack && x != 0)//test
             {
-                
+                int string = "temp";
+                int y = tonghaiso(1, 3);
             }
         }
-        void tonghaiso(int a, int b) { 
-
+        public int tonghaiso(int a, int b) {
+            return a + b;
         }
     }
 }
